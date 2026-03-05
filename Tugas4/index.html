@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Program Garis Hidup</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER 6 GAMBAR -->
+<div class="header-images">
+<img src="https://media.licdn.com/dms/image/v2/D4D1BAQHWsge7WwdHig/company-background_10000/company-background_10000/0/1654575098293/itenas_cover?e=2147483647&v=beta&t=p4nwIPIvD2wDLy5dxfU4hpB7VZmTOIcL3OgURYE_WCg">
+<img src="https://media.licdn.com/dms/image/v2/D4D1BAQHWsge7WwdHig/company-background_10000/company-background_10000/0/1654575098293/itenas_cover?e=2147483647&v=beta&t=p4nwIPIvD2wDLy5dxfU4hpB7VZmTOIcL3OgURYE_WCg">
+<img src="https://media.licdn.com/dms/image/v2/D4D1BAQHWsge7WwdHig/company-background_10000/company-background_10000/0/1654575098293/itenas_cover?e=2147483647&v=beta&t=p4nwIPIvD2wDLy5dxfU4hpB7VZmTOIcL3OgURYE_WCg">
+<img src="https://media.licdn.com/dms/image/v2/D4D1BAQHWsge7WwdHig/company-background_10000/company-background_10000/0/1654575098293/itenas_cover?e=2147483647&v=beta&t=p4nwIPIvD2wDLy5dxfU4hpB7VZmTOIcL3OgURYE_WCg">
+<img src="https://media.licdn.com/dms/image/v2/D4D1BAQHWsge7WwdHig/company-background_10000/company-background_10000/0/1654575098293/itenas_cover?e=2147483647&v=beta&t=p4nwIPIvD2wDLy5dxfU4hpB7VZmTOIcL3OgURYE_WCg">
+<img src="https://media.licdn.com/dms/image/v2/D4D1BAQHWsge7WwdHig/company-background_10000/company-background_10000/0/1654575098293/itenas_cover?e=2147483647&v=beta&t=p4nwIPIvD2wDLy5dxfU4hpB7VZmTOIcL3OgURYE_WCg">
+</div>
+
+<div class="container">
+
+<h1>Program Garis Hidup Tanggal Lahir</h1>
+
+<p>
+Program ini merupakan program untuk mendeskripsikan karakter anda berdasarkan tanggal
+lahir yang kemudian hasilnya akan dikategorikan sebagai garis lahir 1 sampai 9
+
+Angka - angka dalam tanggal lahir Anda menyimpan banyak makna. Jumlahkan sampai 
+menjadi satu angka, lalu lihat artinya? (misalnya Anda lahir tanggal 25 desember 1998, 25 + 
+12 + 1998 = 2 + 5 + 1 + 2 + 1 + 9 + 9 8 = 36 = 3 + 6 + = 9)
+</p>
+
+<hr>
+
+<h2>Ayo Cari Tahu Kepribadian Kamu!</h2>
+
+<form onsubmit="hitungGarisHidup(); return false;">
+
+<p>
+Masukkan Tanggal :
+<select id="tanggal"></select>
+</p>
+
+<p>
+Masukkan Bulan :
+<select id="bulan"></select>
+</p>
+
+<p>
+Masukkan Tahun :
+<select id="tahun"></select>
+</p>
+
+<button type="submit">Kirim</button>
+<button type="reset">Reset</button>
+
+</form>
+
+<hr>
+
+<h3>Output</h3>
+
+<div class="output">
+
+<p>Tanggal : <span id="outTanggal"></span></p>
+<p>Bulan : <span id="outBulan"></span></p>
+<p>Tahun : <span id="outTahun"></span></p>
+<p>Hasil 1 : <span id="hasil1"></span></p>
+<p>Hasil 2 : <span id="hasil2"></span></p>
+<p>Hasil Akhir : <span id="hasilAkhir"></span></p>
+
+</div>
+
+<div id="deskripsi"></div>
+
+</div>
+
+<footer>
+280224 <br>
+Sistem Informasi | ITENAS 2024
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
